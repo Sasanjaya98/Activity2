@@ -11,6 +11,6 @@ class Department(Employee):
         print('Welcome to Department Class')
         print('This class is inherited from Employee')
  
-emp = Employee()
+emp = employee()
 print(emp.x)
 emp.func_msg()
